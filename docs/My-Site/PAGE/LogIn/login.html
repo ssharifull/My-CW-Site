@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+
+  <head>
+
+    <meta charset="utf-8">
+    <script type="text/javascript" src="../../../My-Site/JS/Block/inspect-block.js"></script> 
+    <script type="text/javascript" src="../../../My-Site/JS/Block/copypaste-block.js"></script>
+    <title>Welcome!</title>
+
+  </head>
+
+  <body style="background-image: url(https://www.teahub.io/photos/full/8-83310_ultra-hd-wallpapers-8k-space-gallery-data-src.jpg);
+              background-repeat: no-repeat;
+              background-attachment: fixed;
+              background-position: center;
+              background-size: cover;
+              margin-left:10px; margin-right:10px;
+              margin-top:10px; margin-bottom:10px;">
+
+    <style type="text/css">
+
+a:link
+{
+  text-decoration: none;
+}
+a:visited
+{
+  text-decoration: none;
+}
+a:hover
+{
+  text-decoration: none;
+}
+a:active
+{
+  text-decoration: none;
+}
+
+    </style>
+
+        <h1 style= "text-align: center; color: lightblue; font-size: 60px;"><u style= "text-decoration-color:cyan;">Welcome to my Classwork site</u></h1>
+        <p style= "text-align: center; color: lightgreen; font-size: 20px;">!! <b><i>Please enter</i> <mark style= "background-color: rgba(3,138,255,.5); color: lightblue;">Workdate</mark> <i>and</i> <mark style= "background-color: rgba(255,221,244,.5); color: pink;">Password</mark> <i>to check the work</i></b> !!</p>
+
+<!-- This part is for the login form -->
+
+<form id="frmHome"
+    name="frmHome"
+    method="post"
+    onkeypress="return Enter()"
+    onmousedown="return frmHome_onmousedown()">
+
+ <table style= "cellSpacing: 0;
+                cellPadding: 0;
+                margin-left: auto;
+                margin-right: auto;
+                border: 0;">
+
+  <tbody style= "font-size: 125%">
+
+<!-- For the Username box -->
+
+    <tr vAlign=bottom>
+
+        <td width="125px" style= "color: lightblue;
+                                  font-family: sans-serif;
+                                  letter-spacing: 1px;
+                                  -webkit-text-stroke-width: 1px;
+                                  -webkit-text-stroke-color: lightskyblue;">Workdate :
+         </td>
+
+        <td width="225px">
+            <strong>
+            <br>
+            <input  type=text
+                    onfocus="this.value=''"
+                    value="Date format: DDMonYr"
+                    size=16
+                    MaxLength=25
+                    id="txtuserid"
+                    name="txtuserid"
+                    tabindex="1">
+            </strong>
+            <style>
+                input[id="txtuserid"]
+                {
+                    border: 2px solid blue;
+                    border-radius: 4px;
+                    background-color: cyan;
+                    color: blue;
+                    float: left;
+                }
+            </style>
+            <input type= "reset"
+                   value= "Clear"
+                   style= "background-color: cyan; float: right;">
+        </td>
+
+    </tr>
+
+<!-- For the Password box -->
+
+    <tr vAlign=top>
+
+        <td width= "125px" style= "color: mistyrose;
+                                   font-family: sans-serif;
+                                   letter-spacing: 1px;
+                                   -webkit-text-stroke-width: 1px;
+                                   -webkit-text-stroke-color: lightpink;">
+            Password :
+        </td>
+
+        <td width="225px">
+
+            <strong>
+            <input  type=password
+                    onfocus="this.value=''"
+                    value="************"
+                    MaxLength=25
+                    size=16
+                    id="txtlogpass"
+                    name="txtlogpass"
+                    tabindex="2">
+            </strong>
+            <input type= "reset"
+                   value= "Clear"
+                   style= "background-color: hotpink; float:right;">
+        <style>
+                input[id="txtlogpass"]
+                {
+                    border: 2px solid hotpink;
+                    border-radius: 4px;
+                    background-color: pink;
+                    color: deeppink;
+                    float: left;
+                }
+        </style>
+
+        </td>
+
+    </tr>
+
+
+<!-- For the Login Button -->
+
+    <tr>
+
+        <td></td>
+
+        <td>
+
+            <img src="https://www.freeiconspng.com/uploads/login-button-png-6.png"
+                 width="142"
+                 height="50"
+                 tabindex="3"
+                 onclick="javascript:gobut_onclick()">
+        </td>
+
+    </tr>
+
+  </tbody>
+
+ </table>
+
+</form>
+
+
+<script type="text/javascript"
+        src="../../../My-Site/JS/LogIn/loginid.js">
+</script>
+
+  </body>
+
+</html>
