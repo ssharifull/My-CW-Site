@@ -1,18 +1,29 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en" dir="ltr"  style= "width: 100%; height: 100%; margin: 0; padding: 0">
 
   <head>
     <meta charset="utf-8">
 
-    <title>HTML Frames</title>
+    <title>HTML iFrame</title>
 
   </head>
 
-    <frameset border= "0" cols= "25%, 50%, 25%">
-      <frame name= "left" src= "A-Simple-HTML-Document.html" /> <!--src= "top_frame.html"-->
-      <frame name= "center" src= "WorksList.html" /> <!--src= "main_frame.html"-->
-      <frame name= "right" src= "HTML-Paragraphs.html" /> <!--src= "bottom_frame.html"-->
-    </frameset>
+<body style= "width: 100%; height: 100%; margin: 0; padding: 0">
+
+  <div style= "display: flex; width: 100%; height: 100%; flex-direction: column; overflow: hidden;">
+    <iframe src="HTML-Frameset.html" style= "flex-grow: 1; border: none; margin: 0; padding: 0;"></iframe>
+  </div>
 
 
-</html>
+
+<div id="page-wrap">
+   <a class="button" href="HTML-Frameset-View.html" id="view-source">View Code</a>
+ </div>
+   <link rel='stylesheet' href='../../../../My-Site/CSS/ViewSource/viewsource.css'/>
+
+   <script type="text/javascript" src="../../../../My-Site/JS/Block/inspect-block.js">
+   </script>
+   <script type="text/javascript" src="../../../../My-Site/JS/Block/copypaste-block.js">
+   </script>
+
+</body>
