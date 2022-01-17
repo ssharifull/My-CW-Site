@@ -14,7 +14,7 @@ LANGUAGE="javascript"
 	}
     	else if(document.frmHome.txtuserid.value == "ITJan22" && document.frmHome.txtlogpass.value == "CheckWork@2022")
 	{
-    	window.location = "../../../My-Site/PAGE/Works2022/Jan/JanWorksList.html"
+    	window.location = "../../../My-Site/PAGE/Works2022/JanWorksList.html"
 	}
     	else
 	{
@@ -51,7 +51,7 @@ LANGUAGE="javascript"
 		}
 		    else if(document.frmHome.txtuserid.value == "ITJan22" && document.frmHome.txtlogpass.value == "CheckWork@2022")
         {
-       window.location = "../../../My-Site/PAGE/Works2022/Jan/JanWorksList.html"
+       window.location = "../../../My-Site/PAGE/Works2022/JanWorksList.html"
 	    }
 		    else
 	    {
