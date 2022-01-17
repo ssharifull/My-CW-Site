@@ -12,7 +12,7 @@ LANGUAGE="javascript"
 	{
     	alert("Login Id or Password can not be blank.")
 	}
-    	else if(document.frmHome.txtuserid.value == "10Jan22" && document.frmHome.txtlogpass.value == "CheckWork@2022")
+    	else if(document.frmHome.txtuserid.value == "ITJan22" && document.frmHome.txtlogpass.value == "CheckWork@2022")
 	{
     	window.location = "../../../My-Site/PAGE/Works2022/Jan10/WorksList.html"
 	}
@@ -49,7 +49,7 @@ LANGUAGE="javascript"
 		{
 		    alert("Login Id or Password can not be blank.")
 		}
-		    else if(document.frmHome.txtuserid.value == "10Jan22" && document.frmHome.txtlogpass.value == "CheckWork@2022")
+		    else if(document.frmHome.txtuserid.value == "ITJan22" && document.frmHome.txtlogpass.value == "CheckWork@2022")
         {
        window.location = "../../../My-Site/PAGE/Works2022/Jan10/WorksList.html"
 	    }
