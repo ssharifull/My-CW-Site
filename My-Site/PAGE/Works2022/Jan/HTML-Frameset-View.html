@@ -39,7 +39,10 @@
                <span id="codeyellowgold">src</span>= <span id="codeyellow">&#x22;HTML-Paragraphs.html&#x22; /&#x3E;</span>                              <span id="codeblue">&#x3C;!-- Another html file from same directory as a frame --&#x3E;</span>
         <span id="codegold">&#x3C;frame</span> <span id="codeyellowgold">name</span>= <span id="codeyellow">&#x22;bottom-right&#x22;</span>
                <span id="codeyellowgold">src</span>= <a style= "text-decoration: none;" href="https://www.google.co.uk"><span id="codebluelink">&#x22;https://www.google.co.uk&#x22; /&#x3E;</span></a>                         <span id="codeblue">&#x3C;!-- Another web link of a highly secured site as a frame --&#x3E;</span>
-      <span id="codegold">&#x3C;/frameset&#x3E;</span>                                                                             <span id="codeblue">&#x3C;!-- (Highly secured because doesn&#x27;t load, maybe? Google and Youtube never works in frame. Tried many ways.) --&#x3E;</span>
+      <span id="codegold">&#x3C;/frameset&#x3E;</span>                                                                             <span id="codeblue">&#x3C;!-- (Highly secured because doesn&#x26;#x27;t load, maybe?)
+                                                                                                     Google and Youtube never works in frame. Tried many ways. --&#x3E;</span>
+    <span id="codeblue">&#x3C;!-- And why can&#x27;t I use body when I use frame, and also what&#x27;s with frame not allowing JavaScript? --&#x3E;</span>
+
 
 
 
@@ -58,24 +61,21 @@
 
     <style>
 
+  body {
+    background-color: rgba(0,0,0,0.8);
+  }
+
   table {
     width: 80%;
     margin-left: 50px;
     margin-top: 50px;
   }
 
-  td {
-    background-color: rgba(0,0,0,0.8);
-    height: 100%
-    border: 2px solid #999;
-    display: block;
-    padding: 20px;
-  }
-
   #x {
-    position: fixed;
-    top: 5%; left: 2%;
-    display: block;
+    width: 3.5%;
+    height: auto;
+    position: absolute;
+    top: 2px; left: 2px;
     float: left;
   }
 
